@@ -17,11 +17,16 @@ body {
 
 h1 {
 	text-align: center;
-	/*margin-top: 1em;*/
 }
 
 h3 {
 	margin: 0;
+}
+
+hr.bar {
+	border: 2px solid #ff6600;
+	width: 80px;
+	margin-top: 25px;
 }
 
 /* navigator style */
