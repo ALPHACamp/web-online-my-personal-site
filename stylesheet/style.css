@@ -13,6 +13,16 @@ body {
 	float: left;
 }
 
+/* basic style */
+
+h1 {
+	text-align: center;
+}
+
+h1, h3 {
+	margin: 0;
+}
+
 /* navigator style */
 
 #main {
@@ -45,6 +55,11 @@ a:hover li {
 }
 
 /* about me */
+
+#about h1 {
+	text-align: left;
+}
+
 #my-avatar {
 	margin-right: 20px;
 	float: left;
@@ -52,10 +67,6 @@ a:hover li {
 
 #my-avatar img {
 	width: 200px;
-}
-
-h1, h3 {
-	margin: 0;
 }
 
 table {
@@ -75,4 +86,8 @@ td {
 hr {
 	border: 0.5px solid #eee;
 }
+
+/* my profolio */
+
+
 
