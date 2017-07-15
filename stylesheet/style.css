@@ -126,3 +126,42 @@ hr {
   font-size: 10px;
 }
 
+/* contact me */
+form.contact-form {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.form-row {
+	margin-bottom: 15px;
+}
+
+input[type="text"], input[type="email"], textarea {
+  border-radius: 3px;
+  width: 100%;
+  border: 1px solid #D6D9DC;
+  background-color: #FFFFFF;
+  padding: 7px;
+}
+
+.form-row textarea {
+	resize: none;
+	height: 4em;
+}
+
+.form-row button {
+  color: #FFFFFF;
+  background-color: #5995DA;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.form-row button:hover {
+  background-color: #76AEED;
+}
+
+.form-row button:active {
+  background-color: #407FC7;
+}
