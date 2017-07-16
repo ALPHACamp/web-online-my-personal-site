@@ -3,22 +3,43 @@ body {
 }
 
 #container {
-  border: 1px solid red;
 	width: 1024px;
 	margin: 5vh auto;
 }
 
 #navigator {
-	background-color: #ccc;
 	width: 250px;
 	height : 90vh;
 	float: left;
 }
 
+/* navigator style */
+
 #main {
-	background-color: #eee;
 	box-sizing: border-box;
 	height : 90vh;
 	overflow: auto;
 	padding: 15px;
+}
+
+.menu li {
+  width: 150px;
+  padding: 10px 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  border-radius: 8px;
+	list-style-type: none;
+	background-color: #ff6600;
+	color: #fff;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover li {
+	border: 1px solid #ff6600;
+	background-color: #fff;
+	color: #ff6600;
+	font-weight: 800;
 }
