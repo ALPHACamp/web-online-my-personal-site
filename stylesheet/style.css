@@ -1,0 +1,24 @@
+body {
+	margin: 0;
+}
+
+#container {
+  border: 1px solid red;
+	width: 1024px;
+	margin: 5vh auto;
+}
+
+#navigator {
+	background-color: #ccc;
+	width: 250px;
+	height : 90vh;
+	float: left;
+}
+
+#main {
+	background-color: #eee;
+	box-sizing: border-box;
+	height : 90vh;
+	overflow: auto;
+	padding: 15px;
+}
