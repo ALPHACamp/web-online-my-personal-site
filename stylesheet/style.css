@@ -1,16 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 }
 
-#container {
+.container {
 	width: 1024px;
-	margin: 5vh auto;
+	margin: 0 auto;
 }
 
-#navigator {
-	width: 250px;
-	height : 90vh;
-	float: left;
+#nav {
+  background-color: #FF6600;
+	width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+#content {
+  position: relative;
+  top: 78px;
+  padding: 15px;
+}
+
+#content > div {
+  padding: 78px 0;
 }
 
 /* basic style */
@@ -26,27 +42,29 @@ h3 {
 hr.bar {
 	border: 2px solid #ff6600;
 	width: 80px;
-	margin-top: 25px;
 }
 
 /* navigator style */
 
-#main {
-	box-sizing: border-box;
-	height : 90vh;
-	overflow: auto;
-	padding: 15px;
+
+
+.menu {
+  float: right;
 }
 
+
 .menu li {
+  display: inline-block;
   width: 150px;
   padding: 10px 10px;
-  margin-bottom: 15px;
-  text-align: center;
+  margin-right: 10px;
   border-radius: 8px;
-	list-style-type: none;
-	background-color: #ff6600;
-	color: #fff;
+  border: 1px solid #fff;
+
+  list-style-type: none;
+  text-align: center;
+  /*background-color: #ff6600;*/
+  color: #fff;
 }
 
 a {
