@@ -54,7 +54,6 @@ hr.bar {
 .menu li {
   display: inline-block;
   width: 150px;
-  padding: 10px 10px;
   margin-right: 10px;
   border-radius: 8px;
   border: 1px solid #fff;
@@ -65,6 +64,8 @@ hr.bar {
 
 a {
   color: #fff;
+  display: block;
+  padding: 10px;
   text-decoration: none;
 }
 
