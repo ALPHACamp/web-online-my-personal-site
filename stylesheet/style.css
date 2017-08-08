@@ -46,8 +46,6 @@ hr.bar {
 
 /* navigator style */
 
-
-
 .menu {
   float: right;
 }
@@ -63,19 +61,23 @@ hr.bar {
 
   list-style-type: none;
   text-align: center;
-  /*background-color: #ff6600;*/
-  color: #fff;
 }
 
 a {
-	text-decoration: none;
+  color: #fff;
+  border: 1px solid black;
+  text-decoration: none;
 }
 
-a:hover li {
+li:hover  {
 	border: 1px solid #ff6600;
 	background-color: #fff;
-	color: #ff6600;
-	font-weight: 800;
+}
+
+li:hover a {
+  color: #ff6600;
+  font-weight: 800;
+
 }
 
 /* about me */
